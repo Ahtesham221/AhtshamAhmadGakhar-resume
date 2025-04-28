@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ahtsham Ahmad Gakhar - Resume</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #ffffff;
+      background-color: #fff;
       color: #2c2c2c;
       margin: 0;
       padding: 0;
@@ -53,9 +54,10 @@
       margin-right: 1rem;
       padding: 0.5rem 1rem;
       background-color: #004d99;
-      color: white;
+      color: #fff;
       text-decoration: none;
       border-radius: 5px;
+      transition: background-color 0.3s ease;
     }
 
     .download-btn:hover {
@@ -63,24 +65,25 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container" data-aos="fade-up">
+    <!-- Content starts here -->
     <header>
       <h1 class="title">Ahtsham Ahmad Gakhar</h1>
-      <p class="subtitle">Software Engineer | Web Developer</p>
-      <div class="contact">
-        <p>📞 <a href="tel:+923480008928">+92-348-000-8928</a></p>
-        <p>📧 <a href="mailto:rajaahtshamahmadgakhar@gmail.com">rajaahtshamahmadgakhar@gmail.com</a></p>
-        <p>🔗 <a href="https://www.linkedin.com/in/ahtsham-ahmad-gakhar" target="_blank">LinkedIn</a></p>
-        <p>🔗 <a href="https://people.bayt.com/Ahtsham-Ahmad-Gakhar/" target="_blank">Bayt Profile</a></p>
-      </div>
-      <!-- Download buttons -->
-      <a href="CV.AhtshamAhmadGakhar.pdf" class="download-btn" download>Download Resume</a>
-      <a href="Professional-Portfolio (1).pdf" class="download-btn" download>Download Portfolio</a>
+      <p class="subtitle">Resume</p>
     </header>
 
-    <!-- Additional sections (experience, education, etc.) go here -->
+    <!-- Add content such as contact info, skills, education, etc. -->
 
+    <!-- Download buttons -->
+    <a href="resume.pdf" class="download-btn" download>Download Resume</a>
+    <a href="portfolio.pdf" class="download-btn" download>Download Portfolio</a>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
