@@ -2,127 +2,147 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ahtsham Ahmad Gakhar - Resume</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #ffffff;
-      color: #2c2c2c;
+      font-family: 'Inter', sans-serif;
       margin: 0;
-      padding: 0;
+      background: #f4f4f4;
+      color: #1a1a1a;
     }
-
     .container {
       max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      animation: fadeIn 1.2s ease-in-out;
     }
-
-    h1, h2, h3 {
-      color: #004d99;
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
-
-    section {
-      margin-bottom: 2rem;
+    h1, h2 {
+      color: #219ebc;
     }
-
+    a {
+      color: #219ebc;
+      text-decoration: none;
+    }
     ul {
-      padding-left: 1.2rem;
+      padding-left: 20px;
     }
-
-    .contact a {
-      color: #004d99;
-      text-decoration: none;
+    .section {
+      margin-top: 30px;
+      animation: fadeIn 1.5s ease-in-out;
     }
-
-    .title {
-      font-size: 2rem;
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      font-size: 14px;
+    }
+    .buttons {
+      margin: 20px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .btn {
+      background: #219ebc;
+      color: white;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
       font-weight: bold;
-    }
-
-    .subtitle {
-      font-size: 1.2rem;
-      color: #444;
-    }
-
-    .download-btn {
-      display: inline-block;
-      margin-top: 1rem;
-      margin-right: 1rem;
-      padding: 0.5rem 1rem;
-      background-color: #004d99;
-      color: #fff;
+      cursor: pointer;
       text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
+      transition: background 0.3s ease;
     }
-
-    .download-btn:hover {
-      background-color: #003366;
+    .btn:hover {
+      background: #1a7890;
     }
   </style>
 </head>
 <body>
-  <div class="container" data-aos="fade-up">
-    <header>
-      <h1 class="title">Ahtsham Ahmad Gakhar</h1>
-      <p class="subtitle">Computer Systems Engineer | Web Developer | Tech Enthusiast</p>
-      <div class="contact">
-        <p>📧 <a href="mailto:rajaahtshamahmadgakhar@gmail.com">rajaahtshamahmadgakhar@gmail.com</a></p>
-        <p>📞 <a href="tel:+923480008928">+92-348-000-8928</a></p>
-        <p>🔗 <a href="https://www.linkedin.com/in/ahtsham-ahmad-gakhar" target="_blank">LinkedIn Profile</a></p>
-        <p>🔗 <a href="https://people.bayt.com/Ahtsham-Ahmad-Gakhar/" target="_blank">Bayt Profile</a></p>
-              	<a href="CV.AhtshamAhmadGakhar.pdf" class="download-btn" download>Download Resume</a>
-    <a href="Professional-Portfolio (1).pdf" class="download-btn" download>Download Portfolio</a>
-       </div>
-    </header>
-
-    <section>
-      <h2>About Me</h2>
-      <p>Motivated Computer Systems Engineer with a passion for developing user-friendly websites and applications. Strong foundation in software engineering, web design, and system architecture.</p>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Python, Django, FlutterFlow</li>
-        <li>WordPress, Photoshop, Illustrator</li>
-        <li>Version Control: Git & GitHub</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <p><strong>BS Computer Systems Engineering</strong> - Mirpur University of Science and Technology</p>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <p><strong>Freelance Web Developer</strong> | 2022 - Present</p>
-      <ul>
-        <li>Designed and developed responsive websites using WordPress and custom code.</li>
-        <li>Delivered UI/UX solutions using Adobe tools.</li>
-        <li>Managed domain, hosting, and SEO for clients.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Certifications</h2>
-      <ul>
-        <li>Frontend Web Development - Coursera</li>
-        <li>Python for Everybody - edX</li>
-      </ul>
-    </section>
-
+  <div class="container">
+    <h1>Ahtsham Ahmad Gakhar</h1>
+    <p><strong>Computer Systems Engineer | Web Designer | WordPress Developer</strong></p>
     
-  </div>
+    <div class="contact">
+      <div>Email: <a href="mailto:rajaahtshamahmadgakhar@gmail.com">rajaahtshamahmadgakhar@gmail.com</a></div>
+      <div>Phone: <a href="tel:+923480008928">+92-348-000-8928</a></div>
+      <div>LinkedIn: <a href="https://www.linkedin.com/in/ahtsham-ahmad-gakhar" target="_blank">linkedin.com/in/ahtsham-ahmad-gakhar</a></div>
+    </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <div class="buttons">
+      <a class="btn" href="https://ahtshamahmadgakhar.github.io/AhtshamAhmadGakhar-resume/" target="_blank">📄 View Online Resume</a>
+      <a class="btn" href="https://ahtshamahmadgakhar.github.io/AhtshamAhmadGakhar-resume/CV.AhtshamAhmadGakhar.pdf" target="_blank">⬇️ Download CV</a>
+      <a class="btn" href="https://cse-portfolio-lffrga2.gamma.site/" target="_blank">🌐 Portfolio</a>
+      <a class="btn" href="https://drive.google.com/drive/folders/your-certification-folder-link" target="_blank">🎓 View Certifications</a>
+    </div>
+
+    <div class="section">
+      <h2>🎓 Education</h2>
+      <ul>
+        <li><strong>BS Computer Systems Engineering</strong> - MUST, Pakistan (Grad: July 2025) | GPA: 2.9/4.0</li>
+        <li>FSC (Pre-Engineering) - Govt. Model Science College (Oct 2021) | Grade: 80%</li>
+        <li>Matriculation - Govt. Ali Akbar Awan Model High School (Jan 2019) | Grade: 78%</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💼 Work Experience</h2>
+      <p><strong>Website Designer</strong> – Iconic Think (Nov 2022 – Present)</p>
+      <ul>
+        <li>Created eCommerce WordPress sites (Khan Crockery Store, YourLaptop.uk)</li>
+        <li>Boosted mobile performance and responsiveness by 40%</li>
+      </ul>
+
+      <p><strong>Event Organizer</strong> – JKSLF (Feb 2022 – Present)</p>
+      <ul>
+        <li>Planned 20+ academic and political events</li>
+        <li>Increased student engagement by 30%</li>
+      </ul>
+
+      <p><strong>Graphic Designer</strong> – PPF (Jan 2021 – Present)</p>
+      <ul>
+        <li>Designed 100+ digital promotional materials</li>
+        <li>Ensured brand consistency across campaigns</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🔧 Technical Skills</h2>
+      <ul>
+        <li><strong>Web Development:</strong> WordPress, HTML, CSS, C++, Python</li>
+        <li><strong>Tools:</strong> Photoshop, Illustrator, Canva, MS Office</li>
+        <li><strong>Marketing:</strong> SEO, Social Media</li>
+        <li><strong>Soft Skills:</strong> Teamwork, Event Planning, Public Speaking</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🌍 Languages</h2>
+      <ul>
+        <li>Urdu/Hindi: Native</li>
+        <li>English: Intermediate</li>
+        <li>Arabic: Beginner</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📅 Availability</h2>
+      <p>Open to Full-Time, Part-Time, Internship, Freelance | Preferred: Gulf countries</p>
+    </div>
+
+    <div class="section">
+      <h2>📄 Declaration</h2>
+      <p>I confirm all information is accurate; discrepancies may cancel my job application.</p>
+    </div>
+  </div>
 </body>
 </html>
