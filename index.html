@@ -27,6 +27,7 @@
     }
     h1, h2 {
       color: #219ebc;
+      margin-bottom: 10px;
     }
     a {
       color: #219ebc;
@@ -34,6 +35,8 @@
     }
     ul {
       padding-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 20px;
     }
     .section {
       margin-top: 30px;
@@ -53,13 +56,6 @@
     }
     .intro {
       flex: 1;
-    }
-    .contact {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      font-size: 14px;
-      margin-top: 10px;
     }
     .buttons {
       margin: 20px 0;
@@ -85,69 +81,94 @@
 </head>
 <body>
   <div class="container">
+    <!-- Header with Image -->
     <div class="header">
       <img src="https://via.placeholder.com/120x120.png?text=Profile" alt="Profile Picture" class="profile-pic" />
       <div class="intro">
         <h1>Ahtsham Ahmad Gakhar</h1>
         <p><strong>Computer Systems Engineer | Web Designer | WordPress Developer</strong></p>
-        <div class="contact">
-          <div>📧 <a href="mailto:rajaahtshamahmadgakhar@gmail.com">rajaahtshamahmadgakhar@gmail.com</a></div>
-          <div>📞 <a href="tel:+923480008928">+92-348-000-8928</a></div>
-          <div>💬 <a href="https://wa.me/923480008928" target="_blank">WhatsApp Chat</a></div>
-          <div>🔗 <a href="https://www.linkedin.com/in/ahtsham-ahmad-gakhar" target="_blank">LinkedIn</a></div>
-          <div>🌍 <a href="https://people.bayt.com/Ahtsham-Ahmad-Gakhar/" target="_blank">Bayt Profile</a></div>
-          <div>📁 <a href="https://profile.indeed.com/p/ahtshamahmadg-t32jbws" target="_blank">Indeed Profile</a></div>
-        </div>
       </div>
     </div>
 
-    <div class="buttons">
-      <a class="btn" href="https://ahtshamahmadgakhar.github.io/AhtshamAhmadGakhar-resume/" target="_blank">📄 View Resume</a>
-      <a class="btn" href="https://ahtshamahmadgakhar.github.io/AhtshamAhmadGakhar-resume/CV.AhtshamAhmadGakhar.pdf" target="_blank">⬇️ Download CV</a>
-      <a class="btn" href="https://cse-portfolio-lffrga2.gamma.site/" target="_blank">🌐 Portfolio</a>
-      <a class="btn" href="https://drive.google.com/drive/folders/your-certification-folder-link" target="_blank">🎓 View Certifications</a>
+    <!-- Contact Information -->
+    <div class="section">
+      <h2>📞 Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:rajaahtshamahmadgakhar@gmail.com">rajaahtshamahmadgakhar@gmail.com</a></li>
+        <li>Phone: <a href="tel:+923480008928">+92-348-000-8928</a></li>
+        <li>WhatsApp: <a href="https://wa.me/923480008928" target="_blank">Chat on WhatsApp</a></li>
+      </ul>
     </div>
 
+    <!-- Profiles -->
+    <div class="section">
+      <h2>🔗 Profiles</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/ahtsham-ahmad-gakhar" target="_blank">LinkedIn</a></li>
+        <li><a href="https://people.bayt.com/Ahtsham-Ahmad-Gakhar/" target="_blank">Bayt Profile</a></li>
+        <li><a href="https://profile.indeed.com/p/ahtshamahmadg-t32jbws" target="_blank">Indeed Profile</a></li>
+      </ul>
+    </div>
+
+    <!-- Resume & Downloads -->
+    <div class="section">
+      <h2>📄 Resume & Downloads</h2>
+      <div class="buttons">
+        <a class="btn" href="https://ahtshamahmadgakhar.github.io/AhtshamAhmadGakhar-resume/" target="_blank">View Resume</a>
+        <a class="btn" href="https://ahtshamahmadgakhar.github.io/AhtshamAhmadGakhar-resume/CV.AhtshamAhmadGakhar.pdf" target="_blank">Download CV</a>
+        <a class="btn" href="https://cse-portfolio-lffrga2.gamma.site/" target="_blank">Portfolio</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/your-certification-folder-link" target="_blank">View Certifications</a>
+      </div>
+    </div>
+
+    <!-- Education -->
     <div class="section">
       <h2>🎓 Education</h2>
       <ul>
-        <li><strong>BS Computer Systems Engineering</strong> - MUST, Pakistan (Grad: July 2025) | GPA: 2.9/4.0</li>
-        <li>FSC (Pre-Engineering) - Govt. Model Science College (Oct 2021) | Grade: 80%</li>
-        <li>Matriculation - Govt. Ali Akbar Awan Model High School (Jan 2019) | Grade: 78%</li>
+        <li><strong>Bachelor of Science – Computer Systems Engineering</strong>, MUST, Pakistan<br>Graduation: July 2025 | GPA: 2.9/4.0</li>
+        <li><strong>FSc (Pre-Engineering)</strong>, Govt. Model Science College<br>Graduation: Oct 2021 | Grade: 80%</li>
+        <li><strong>Matriculation</strong>, Govt. Ali Akbar Awan Model High School<br>Graduation: Jan 2019 | Grade: 78%</li>
       </ul>
     </div>
 
+    <!-- Work Experience -->
     <div class="section">
       <h2>💼 Work Experience</h2>
-      <p><strong>Website Designer</strong> – Iconic Think (Nov 2022 – Present)</p>
       <ul>
-        <li>Created eCommerce WordPress sites (Khan Crockery Store, YourLaptop.uk)</li>
-        <li>Boosted mobile performance and responsiveness by 40%</li>
-      </ul>
-
-      <p><strong>Event Organizer</strong> – JKSLF (Feb 2022 – Present)</p>
-      <ul>
-        <li>Planned 20+ academic and political events</li>
-        <li>Increased student engagement by 30%</li>
-      </ul>
-
-      <p><strong>Graphic Designer</strong> – PPF (Jan 2021 – Present)</p>
-      <ul>
-        <li>Designed 100+ digital promotional materials</li>
-        <li>Ensured brand consistency across campaigns</li>
+        <li><strong>Website Designer</strong> – Iconic Think (Nov 2022 – Present)
+          <ul>
+            <li>Developed eCommerce WordPress sites like Khan Crockery Store and YourLaptop.uk</li>
+            <li>Improved UI/UX responsiveness by 40%</li>
+            <li>Customized themes and plugins</li>
+          </ul>
+        </li>
+        <li><strong>Event Organizer</strong> – JKSLF (Feb 2022 – Present)
+          <ul>
+            <li>Organized 20+ events: seminars, debates, awareness drives</li>
+            <li>Boosted student engagement by 30%</li>
+          </ul>
+        </li>
+        <li><strong>Graphic Designer</strong> – PPF (Jan 2021 – Present)
+          <ul>
+            <li>Designed 100+ graphics for digital campaigns</li>
+            <li>Created awareness materials for social causes</li>
+          </ul>
+        </li>
       </ul>
     </div>
 
+    <!-- Skills -->
     <div class="section">
-      <h2>🔧 Technical Skills</h2>
+      <h2>🔧 Technical & Soft Skills</h2>
       <ul>
-        <li><strong>Web Development:</strong> WordPress, HTML, CSS, C++, Python</li>
-        <li><strong>Tools:</strong> Photoshop, Illustrator, Canva, MS Office</li>
-        <li><strong>Marketing:</strong> SEO, Social Media</li>
-        <li><strong>Soft Skills:</strong> Teamwork, Event Planning, Public Speaking</li>
+        <li><strong>Development:</strong> WordPress, HTML/CSS, C++, Python</li>
+        <li><strong>Design & Tools:</strong> Photoshop, Illustrator, Canva, MS Office</li>
+        <li><strong>Marketing:</strong> Basic SEO, Social Media</li>
+        <li><strong>Soft Skills:</strong> Team Collaboration, Public Speaking, Event Management</li>
       </ul>
     </div>
 
+    <!-- Languages -->
     <div class="section">
       <h2>🌍 Languages</h2>
       <ul>
@@ -157,14 +178,19 @@
       </ul>
     </div>
 
+    <!-- Preferences -->
     <div class="section">
-      <h2>📅 Availability</h2>
-      <p>Open to Full-Time, Part-Time, Internship, Freelance | Preferred: Gulf countries</p>
+      <h2>📅 Job Preferences</h2>
+      <ul>
+        <li>Available for Full-Time, Part-Time, Internship, Freelance</li>
+        <li>Preferred Location: Gulf Countries</li>
+      </ul>
     </div>
 
+    <!-- Declaration -->
     <div class="section">
       <h2>📄 Declaration</h2>
-      <p>I confirm all information is accurate; discrepancies may cancel my job application.</p>
+      <p>I confirm that the information provided above is accurate to the best of my knowledge.</p>
     </div>
   </div>
 </body>
